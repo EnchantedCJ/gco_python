@@ -10,9 +10,9 @@ try:
     from Cython.Distutils import build_ext
     import numpy
 
-    # Make sure the gco_src directory is up to date. Technically this should
-    # occur during a build command, not during configuration
-    subprocess.check_call(['make', 'gco_src'])
+    # # Make sure the gco_src directory is up to date. Technically this should
+    # # occur during a build command, not during configuration
+    # subprocess.check_call(['make', 'gco_src'])
 
     gco_directory = "gco_src"
 

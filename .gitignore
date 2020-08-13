@@ -26,3 +26,10 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+# vscode
+.vscode
+
+# Cython files
+gco_python.cpp
+*.pyd

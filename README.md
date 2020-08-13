@@ -1,4 +1,6 @@
 pygco
+
+This is a fork from https://github.com/amueller/gco_python.
 =====
 
 ![travis status](https://travis-ci.org/amueller/gco_python.svg?branch=master)
@@ -14,7 +16,7 @@ See my blog for examples and comments: [peekaboo-vision.blogspot.com](https://pe
 Installation
 ------------
 
-With Pip
+<!-- With Pip
 --------
 - Run `pip install git+git://github.com/amueller/gco_python`
 
@@ -24,20 +26,23 @@ For Linux
 
 - run ``make``
 
-- Run example.py for a simple example.
+- Run example.py for a simple example. -->
 
 
 For Windows
 -----------
 - Make sure Cython is installed (included in enthought Python distribution for example)
 
-- Download original source from http://vision.csd.uwo.ca/code/gco-v3.0.zip
+- Download original source from http://vision.csd.uwo.ca/code/gco-v3.0.zip 
+(Dead link accessed on 2020.07.29, please refer to https://github.com/Borda/pyGCO/tree/master/gco_source, note that legal issue may exist according to the license)
 
-- Build gco with your compiler of choice. Create a dynamic library at libgco.so.
+<!-- - Build gco with your compiler of choice. Create a dynamic library at libgco.so. -->
 
 - Adjust the path to gco in setup.py.
 
-- run ``python setup.py build``.
+<!-- - run ``python setup.py build``. -->
+
+- run ``python setup.py build_ext -i``.
 
 - run example.py for a simple example.
 
