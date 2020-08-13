@@ -1,7 +1,7 @@
 pygco
+=====
 
 This is a fork from https://github.com/amueller/gco_python.
-=====
 
 ![travis status](https://travis-ci.org/amueller/gco_python.svg?branch=master)
 
